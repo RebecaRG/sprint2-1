@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/estilos.css" />
+    <title>Bloc 1.4: Rest & Spread operators - Nivell 3</title>
+  </head>
+
+  <body>
+    <h1>Bloc 1.4: Rest & Spread operators</h1>
+
+    <h2>Nivell 3</h2>
+    <h3>Exercici 5</h3>
+    <p>
+      Spread en Funcions: Crea una funció que accepti tres arguments. Després,
+      crea una array amb tres elements i crida la funció utilitzant l'operador
+      spread amb aquesta array.
+    </p>
+
+    <h4>
+      Dades Personals
+      <hr />
+    </h4>
+    <p>
+      <span>Nom: </span>
+      <input type="text" id="nombre" />
+    </p>
+    <p>
+      <span>Cognom: </span>
+      <input type="text" id="apellido" />
+    </p>
+    <h4>
+      3 qualitats de la persona
+      <hr />
+    </h4>
+    <p>
+      <span>Qualitat 1</span>
+      <input type="text" id="qua1" />
+    </p>
+    <p>
+      <span>Qualitat 2</span>
+      <input type="text" id="qua2" />
+    </p>
+    <p>
+      <span>Qualitat 3</span>
+      <input type="text" id="qua3" />
+    </p>
+
+    <p>
+      <button class="button2" onclick="guardar()">Guardar dades</button>
+    </p>
+    <p>
+      <button onclick="imprimir()">Imprimir dades</button>
+    </p>
+    <div class="border">
+      <p id="msg1"></p>
+    </div>
+
+    <h3>Exercici 6</h3>
+    <p>
+      Fusionant Objectes amb Spread: Crea dos objectes amb propietats diferents.
+      Utilitza l'operador spread per a fusionar aquests dos objectes en un de
+      nou.
+    </p>
+    <h4>
+      Dades Personals
+      <hr />
+    </h4>
+    <p>
+      <span>Nom: </span>
+      <input type="text" id="nombreClase" />
+    </p>
+    <p>
+      <span>Primer cognom: </span>
+      <input type="text" id="apellido1Clase" />
+    </p>
+    <p>
+      <span>Segon cognom: </span>
+      <input type="text" id="apellido2Clase" />
+    </p>
+    <button class="button2" onclick="crearObjecte1()">Guardar</button>
+
+    <h4>
+      Característiques
+      <hr />
+    </h4>
+    <p>
+      <span>Anys: </span>
+      <input type="number" id="edatClase" />
+    </p>
+    <p>
+      <span>Alçada(cm): </span>
+      <input type="number" id="alturaClase" />
+    </p>
+    <p>
+      <span>Pes(kg): </span>
+      <input type="number" id="pesClase" />
+    </p>
+
+    <button class="button2" onclick="crearObjecte2()">Guardar</button>
+
+    <p>
+      <button onclick="fusionar()">Fusionar i imprimir</button>
+    </p>
+    <div class="border">
+      <p id="msg2"></p>
+    </div>
+
+    <script src="./js/claseCaract.js"></script>
+    <script src="./js/claseDades.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
