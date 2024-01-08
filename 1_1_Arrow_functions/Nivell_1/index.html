@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/estilos.css" />
+    <title>Bloc 1.1: Arrow functions - Nivell 1</title>
+  </head>
+  <body>
+    <h1>Bloc 1.1: Arrow functions</h1>
+
+    <h2>Nivell 1</h2>
+    <h3>Exercici 1</h3>
+    <p>
+      Conversió de funcions: Tens una funció add que accepta dos paràmetres i
+      retorna la seva suma. Converteix-la en una funció de fletxa. Per exemple:
+      function add(a, b) {return a + b;}.
+    </p>
+
+    <p>
+      <span>Primer número: </span>
+      <input type="number" id="num1" />
+    </p>
+    <p>
+      <span>Segon número: </span>
+      <input type="number" id="num2" />
+    </p>
+
+    <button onclick="sumar()">Fer suma</button>
+
+    <div class="border">
+      <p id="msg1"></p>
+    </div>
+
+    <h3>Exercici 2</h3>
+    <p>
+      Funció de fletxa sense paràmetres: Crea una funció de fletxa anomenada
+      randomNumber que no necessiti paràmetres i que retorni un número aleatori
+      entre 0 i 100.
+    </p>
+
+    <button onclick="numRandom()">Número random</button>
+
+    <div class="border">
+      <p id="msg2"></p>
+    </div>
+
+    <h3>Exercici 3</h3>
+    <p>
+      Ús de 'this' en les funcions de fletxa: Crea una classe person que tingui
+      una propietat name i una funció greet que utilitzi una funció de fletxa.
+      La funció ha d'imprimir una salutació que inclogui el nom de la persona.
+      Per exemple: console.log(Hola, ${this.name});.
+    </p>
+    <p>
+      <span>Nom: </span>
+      <input type="text" id="nombre" />
+    </p>
+
+    <button onclick="saludar()">Saludar</button>
+
+    <div class="border">
+      <p id="msg3"></p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

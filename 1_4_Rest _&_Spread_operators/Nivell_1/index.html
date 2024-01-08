@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/estilos.css" />
+  <title>Bloc 1.4: Rest & Spread operators - Nivell 1</title>
+</head>
+
+<body>
+  <h1>Bloc 1.4: Rest & Spread operators</h1>
+
+  <h2>Nivell 1</h2>
+  <h3>Exercici 1</h3>
+  <p>
+    Operador Spread en Arrays: Crea dues arrays, array1 i array2. Utilitza l'operador spread per a crear una tercera
+    array que contingui tots els elements de array1 i array2.
+  </p>
+
+  <p>
+    <span>Array1: </span>
+    <input type="number" id="arr1" />
+  </p>
+  <button class="button2" onclick="a1()">Introduir número Array1</button>
+
+  <p>
+    <span>Array2: </span>
+    <input type="number" id="arr2" />
+  </p>
+  <button class="button2" onclick="a2()">Introduir número Array2</button>
+
+  <p> <i>*Escriu el nombre que vols incloure al Array, després clica el botó d'introduir número per guardar-lo.</i>
+  </p>
+
+
+  <button onclick="a3()">Crear Array3 i impimir per pantalla</button>
+
+  <div class="border">
+    <p id="msg1"></p>
+  </div>
+
+  <h3>Exercici 2</h3>
+  <p>
+    Operador Rest en Funcions: Crea una funció 'suma' que utilitzi l'operador rest per a acceptar un nombre indeterminat
+    d'arguments i retornar la seva suma.
+  </p>
+
+  <p>
+    <span>Número: </span>
+    <input type="number" id="num" />
+  </p>
+
+  <p> <i>*Escriu un número i després clica el botó per sumar al resultat.</i>
+  </p>
+
+  <button onclick="sumar()">Sumar</button>
+  <div class="border">
+    <p id="msg2"></p>
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>

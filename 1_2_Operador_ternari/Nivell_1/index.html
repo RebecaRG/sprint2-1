@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/estilos.css" />
+    <title>Bloc 1.2: Operador ternari - Nivell 1</title>
+  </head>
+  <body>
+    <h1>Bloc 1.2: Operador ternari</h1>
+
+    <h2>Nivell 1</h2>
+    <h3>Exercici 1</h3>
+    <p>
+      Operador ternari bàsic: Escriu una funció potConduir que accepti l'edat
+      com a paràmetre i utilitzi l'operador ternari per determinar si l'usuari
+      pot conduir. Si l'edat és 18 o més, ha de retornar 'Pots conduir'. Si no,
+      ha de retornar 'No pots conduir'.
+    </p>
+
+    <p>
+      <span>Edat: </span>
+      <input type="number" id="edad" />
+    </p>
+
+    <button onclick="resposta()">Pots conduir?</button>
+
+    <div class="border">
+      <p id="msg1"></p>
+    </div>
+
+    <h3>Exercici 2</h3>
+    <p>
+      Ús amb operadors de comparació: Escriu una expressió que utilitzi
+      l'operador ternari per determinar quin dels dos nombres donats (num1 i
+      num2) és més gran. Si num1 és més gran, retorna 'num1 és més gran'. Si no,
+      retorna 'num2 és més gran'.
+    </p>
+
+    <p>
+      <span>Num1: </span>
+      <input type="number" id="num1" />
+    </p>
+    <p>
+      <span>Num2: </span>
+      <input type="number" id="num2" />
+    </p>
+
+    <button onclick="gran()">Quin és més gran?</button>
+
+    <div class="border">
+      <p id="msg2"></p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

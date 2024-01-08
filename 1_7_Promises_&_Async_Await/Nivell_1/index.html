@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/estilos.css" />
+    <title>Bloc 1.7: Promises & Async/Await - Nivell 1</title>
+  </head>
+
+  <body>
+    <h1>Bloc 1.7: Promises & Async/Await</h1>
+
+    <h2>Nivell 1</h2>
+    <h3>Exercici 1</h3>
+    <p>
+      Creació d'una Promesa: Crea una promesa que es resolgui després de 2
+      segons i que retorni la cadena de text 'Hola, món'.
+    </p>
+    <button onclick="promesa()">Crear promesa</button>
+    <div class="border">
+      <p id="msg1"></p>
+    </div>
+
+    <h3>Exercici 2</h3>
+    <p>
+      Utilització d'una Promesa: Utilitza la promesa creada en l'exercici
+      anterior. Crea un .then que imprimeixi el resultat a la consola.
+    </p>
+    <button onclick="imprimir()">Imprimir per consola</button>
+    <div class="border">
+      <p id="msg2"></p>
+    </div>
+
+    <h3>Exercici 3</h3>
+    <p>
+      Promesa amb reject: Crea una promesa que es resolgui després de 2 segons
+      si l'input és igual a 'Hola', i que la rebutgi si l'input és qualsevol
+      altra cosa.
+    </p>
+    <button onclick="promesaReject()">Crear promesa amb reject</button>
+    <div class="border">
+      <p id="msg3"></p>
+    </div>
+
+    <h3>Exercici 4</h3>
+    <p>
+      Ús de async/await: Escriu una funció asíncrona que utilitzi la funció
+      await per a esperar el resultat de la promesa creada a l'exercici 1, i que
+      després imprimeixi aquest resultat a la consola.
+    </p>
+
+    <button onclick="imprimirConsola()">Imprimir per consola</button>
+    <div class="border">
+      <p id="msg4"></p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
+
