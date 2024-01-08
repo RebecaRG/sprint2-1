@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/estilos.css" />
+  <title>Bloc 1.4: Rest & Spread operators - Nivell 2</title>
+</head>
+
+<body>
+  <h1>Bloc 1.4: Rest & Spread operators</h1>
+
+  <h2>Nivell 2</h2>
+  <h3>Exercici 3</h3>
+  <p>
+    Copiant objectes amb Spread: Crea un objecte 'objecte1'. Després crea un segon objecte, 'objecte2', que sigui una
+    còpia de 'objecte1' utilitzant l'operador spread. Canvia una propietat de 'objecte2' i comprova que 'objecte1' no ha
+    canviat.
+  </p>
+
+  <h4>Objecte1
+    <hr>
+  </h4>
+  <p>
+    <span>Nom: </span>
+    <input type="text" id="nombre" />
+  </p>
+  <p>
+  <span>Color: </span>
+  <input type="text" id="col" />
+  </p>
+
+  <button class="button2" onclick="crear()">Crear Objecte1</button>
+
+  <h4>Objecte2
+    <hr>
+  </h4>
+
+  <button class="button2" onclick="copiar()">Copiar Objecte1 - Crear Objecte2</button>
+  <h4>Canviar Objecte2
+    <hr>
+  </h4>
+
+  <p>
+    <span>Nou nom: </span>
+    <input type="text" id="nuevoNombre" />
+  <p>
+  <p>
+    <button class="button2" onclick="canviar()">Canviar nom Objecte2</button>
+  </p>
+  <p>
+  <h4>
+    <hr>
+  </h4>
+  <button onclick="imprimir()">Imprimir Objectes</button>
+  </p>
+
+  <div class="border">
+    <p id="msg1"></p>
+  </div>
+
+  <h3>Exercici 4</h3>
+  <p>
+    Rest en Destructuring: Crea una array amb diversos elements. Utilitza destructuring i l'operador rest per a assignar
+    els primers dos elements a variables, i després assignar la resta dels elements a una tercera variable.
+  </p>
+
+  <p>
+    <span>Número: </span>
+    <input type="number" id="num" />
+  <p> <i>*Escriu el nombre que vols incloure al Array, després clica el botó d'introduir número per guardar-lo.</i>
+  </p>
+  </p>
+
+  <button class="button2" onclick="intro()">Introduir número Array</button>
+  <div class="border">
+    <p id="msg2"></p>
+  </div>
+
+  <button onclick="assignar()">Assignar elements a variables</button>
+
+  <div class="border">
+    <p id="msg3"></p>
+  </div>
+
+  <script src="./js/clase.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
